@@ -414,3 +414,9 @@ footer {
     gap: 1.75rem;
   }
 }
+/* Keep the research authors graphic fully visible */
+.research-authors-image {
+  object-fit: contain !important;
+  object-position: center !important;
+  background: #ffffff;
+}
