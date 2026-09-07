@@ -420,3 +420,21 @@ footer {
   object-position: center !important;
   background: #ffffff;
 }
+/* Clickable certificate cards */
+.credential-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.credential-action {
+  display: inline-block;
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.credential-link:hover .credential-action {
+  text-decoration: underline;
+}
